@@ -161,7 +161,7 @@ def build_pdf(filename: str = "PROJECT_MANUAL.pdf"):
         ],
         [
             Paragraph("GitHub Repository", table_header_style),
-            Paragraph("https://github.com/Jagan240804/research-paper-rag-system", table_cell_style),
+            Paragraph("https://github.com/Jagan240804/Research-paper-question-answering-system", table_cell_style),
         ],
     ]
 
@@ -303,7 +303,7 @@ def build_pdf(filename: str = "PROJECT_MANUAL.pdf"):
     story.append(
         Paragraph(
             "The complete project source code, unit test suite, and documentation are available at:<br/>"
-            "<b>GitHub Repository:</b> https://github.com/Jagan240804/research-paper-rag-system<br/>"
+            "<b>GitHub Repository:</b> https://github.com/Jagan240804/Research-paper-question-answering-system<br/>"
             "<b>Student Name:</b> Jagan &nbsp;|&nbsp; <b>Registration No.:</b> 231FA23087<br/>"
             "<b>Email:</b> jagangannavarapu2004@gmail.com",
             body_style,
